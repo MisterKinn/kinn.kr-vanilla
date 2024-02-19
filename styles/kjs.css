@@ -1,0 +1,273 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+    background-color: black;
+    position: relative;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    object-fit: cover;
+    height: 100vh;
+    filter: brightness(0.4);
+}
+
+.header-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.name {
+    font-size: 6.9em;
+    color: #5d3fd3;
+    margin-top: 1em;
+    margin-bottom: 0px;
+}
+
+.introduce {
+    text-align: center;
+    font-size: 2.75em;
+    margin-top: 0.3em;
+    color: #eee;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(25% - 5px);
+    height: 5em;
+    width: 9em;
+    gap: 30px;
+    background-color: #1c1c1c;
+    box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 24px;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 0.5em;
+    color: grey;
+}
+
+.card-footer {
+    font-size: 17px;
+    color: white;
+}
+
+.wave {
+    height: 1em;
+    width: 1em;
+}
+
+.arrow {
+    width: 5em;
+    margin-top: 8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+}
+
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 2em;
+    }
+}
+
+.toss {
+    height: 2.75em;
+    width: auto;
+    margin-top: -1em;
+    margin-bottom: -1em;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+.blank {
+    margin-top: 20em;
+}
+
+.AboutMe {
+    text-align: center;
+    margin-top: 5em;
+    padding-top: 3em;
+    font-size: 50px;
+    color: #5d3fd3;
+}
+
+.support {
+    text-align: center;
+    font-size: 50px;
+    color: #00ffff;
+}
+
+.support:hover {
+    color: #5d3fd3;
+}
+
+.banner {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin10 {
+    margin-top: 10%;
+}
+
+.list {
+    text-align: center;
+    padding-right: 70%;
+    margin-top: 15%;
+    padding-top: 3em;
+    margin-bottom: 0px;
+    font-size: 50px;
+    color: white;
+}
+
+.portfolio {
+    height: 50px;
+    width: 50px;
+    margin-left: 30%;
+    padding-right: 20px;
+}
+
+.click-guide {
+    text-align: center;
+    padding-right: 63%;
+    padding-bottom: 2em;
+    color: white;
+}
+
+.spec {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.spec:hover,
+.spec3:hover {
+    color: #5d3fd3;
+}
+
+.spec2 {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    height: 3em;
+    width: 3em;
+}
+
+.spec3 {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    height: 3em;
+    width: 7em;
+}
+
+.account {
+    height: 4em;
+    margin: 30px;
+    max-width: 6em;
+}
+
+.skill {
+    height: 6em;
+    margin: 20px;
+    max-width: 6em;
+}
+
+.explain {
+    text-align: left;
+    margin-left: 30%;
+}
+
+.profile {
+    height: 80px;
+    width: 100px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.version {
+    text-align: center;
+    padding-right: 40%;
+    padding-top: 5%;
+    font-size: 35px;
+    color: white;
+}
+
+.release {
+    padding-left: 25%;
+    padding-top: 0%;
+    font-size: 20px;
+    color: white;
+}
+
+.img {
+    width: 30%;
+    height: auto;
+    display: block;
+    padding-left: 60%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}

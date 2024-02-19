@@ -1,0 +1,235 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+    background-color: black;
+    position: relative;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.blank {
+    margin-top: 1000px;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.header-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    filter: brightness(0.4);
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    font-size: 3.5em;
+    color: white;
+    margin: 0.5em;
+}
+
+.sub-title {
+    font-size: 1.75em;
+    color: grey;
+    text-shadow: 2px 2px black;
+}
+
+.join {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #333333;
+    height: 3em;
+    width: 10em;
+    margin-top: 1em;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid #333333;
+    text-decoration: none;
+    font-size: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.join:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.scroll {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.introduce {
+    text-align: center;
+    margin-top: 5em;
+    font-size: 50px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    height: 8.5em;
+    width: 22em;
+    gap: 30px;
+    background-color: #1c1c1c;
+    box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 24px;
+}
+
+.profile {
+    height: 7em;
+    width: 15em;
+}
+
+.no-deco {
+    text-decoration: none;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-title {
+    font-size: 30px;
+    color: white;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 20px;
+    color: grey;
+}
+
+.card-footer {
+    font-size: 17px;
+    color: white;
+}
+
+.spec {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.explain {
+    text-align: left;
+    margin-left: 30%;
+    margin-bottom: 3em;
+}
+
+.portfolio {
+    height: 50px;
+    width: 50px;
+    margin-left: 30%;
+    padding-right: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}
+
+.banner {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+}
+
+small {
+    color: white;
+}
+
+.agree {
+    font-size: 1em;
+}
+
+.terms-text {
+    color: white;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 1em;
+}
+
+input[type="text"],
+input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0064ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}

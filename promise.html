@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta property="og:title" content="Promise" />
+        <meta property="og:description" content="Official Web of Promise" />
+        <meta
+            property="og:image"
+            content="https://cdn.discordapp.com/attachments/798392730056261643/1172138349100802048/Promise.webp?ex=655f39e7&is=654cc4e7&hm=9827baf44413ecdf49149532aa3ec3ec9a403e7969a647a5302b47cb4bac924e&"
+        />
+        <title>Promise</title>
+        <link rel="icon" href="img/Promise.webp" type="image/x-icon" />
+        <link rel="stylesheet" href="styles/promise.css" />
+        <link rel="stylesheet" href="styles/sidebar.css" />
+        <noscript>You need to enable JavaScript to run this Web.</noscript>
+        <script src="scripts/promise.js" defer></script>
+        <script src="scripts/scroll.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script src="scripts/sidebar.js" defer></script>
+        <script src="scripts/noNewTab.js" defer></script>
+        <script src="scripts/rediret.js" defer></script>
+        <script src="scripts/countYear.js" defer></script>
+    </head>
+    <body>
+        <div class="header">
+            <img src="img/gmsh.png" class="header-img" />
+            <div class="text-container">
+                <h1 class="title scroll">
+                    당신도 무언가를<br />상상해본 적이 있나요?
+                </h1>
+                <h2 class="sub-title scroll">
+                    우리는 상상을 현실로 구현합니다.<br /><strong
+                        >Promise</strong
+                    >는 교내 유일 웹 개발 동아리입니다. <br /><strong
+                        >Promise</strong
+                    >와 함께라면 당신의 상상은 현실이 됩니다.
+                </h2>
+                <button class="join scroll">동아리 지원하기</button>
+            </div>
+        </div>
+
+        <h2 class="introduce scroll">소개</h2>
+        <p class="scroll">
+            <strong>Promise</strong>는 교내 유일 웹 개발 동아리이며, <br />웹과
+            서버 개발을 배우고 함께 실습하며 <br />웹 개발자로서의 역량을
+            쌓아나가는 동아리입니다.
+        </p>
+
+        <h2 class="introduce scroll">커리큘럼</h2>
+        <div class="container scroll">
+            <div class="card-container">
+                <div>
+                    <img src="img/html.png" class="card-img" />
+                    <span class="card-title"
+                        ><strong> 웹 개발 기초</strong></span
+                    >
+                </div>
+                <div class="card-text">
+                    웹의 작동 방식과 웹을 이루는 언어인<br />HTML, CSS 등을
+                    학습합니다.
+                </div>
+            </div>
+
+            <div class="card-container scroll">
+                <div>
+                    <img src="img/js.png" class="card-img" />
+                    <span class="card-title"
+                        ><strong> 프론트엔드 기초</strong></span
+                    >
+                </div>
+                <div class="card-text">
+                    프론트엔드 웹 개발의 기반인<br />JavaScript를 통해 동적 웹을
+                    만듭니다.
+                </div>
+            </div>
+        </div>
+        <div class="container scroll">
+            <div class="card-container">
+                <div>
+                    <img src="img/React.png" class="card-img" />
+                    <span class="card-title"
+                        ><strong> 프론트엔드 심화</strong></span
+                    >
+                </div>
+                <div class="card-text">
+                    ReactJS를 통해 더욱<br />효율적으로 웹을 개발합니다.
+                </div>
+            </div>
+
+            <div class="card-container">
+                <div>
+                    <img src="img/ts.png" class="card-img" />
+                    <span class="card-title"><strong> 서버 개발</strong></span>
+                </div>
+                <div class="card-text">
+                    TypeScript를 통한 백엔드 개발을 배워<br />웹 서버를
+                    구현합니다.
+                </div>
+            </div>
+        </div>
+
+        <h2 class="introduce scroll">프로젝트</h2>
+        <p class="scroll">
+            아직까지 개발된 프로젝트가 없습니다.<br />동아리에 가입하셔서 첫
+            프로젝트를 함께 만들어보세요!
+        </p>
+
+        <h2 class="introduce scroll">문의</h2>
+        <div class="container scroll">
+            <a
+                href="mailto:promise@kinn.kr"
+                target="_blank"
+                title="Mail"
+                class="no-deco"
+            >
+                <div class="card-container profile">
+                    <div>
+                        <img src="img/mail.png" class="card-img" />
+                        <span class="card-title"><strong>Mail</strong></span>
+                    </div>
+                    <div class="card-footer">promise@kinn.kr</div>
+                </div>
+            </a>
+
+            <a
+                href="https://www.instagram.com/gmsh_promise"
+                target="_blank"
+                title="Instagram"
+                class="no-deco"
+            >
+                <div class="card-container profile">
+                    <div>
+                        <img src="img/instagram.png" class="card-img" />
+                        <span class="card-title"
+                            ><strong>Instagram</strong></span
+                        >
+                    </div>
+                    <div class="card-footer">gmsh_promise</div>
+                </div>
+            </a>
+        </div>
+
+        <a href="https://kinn.kr/" target="_blank" title="Kinn's Lounge">
+            <img
+                src="img/kinn-banner.png"
+                alt="Kinn's Lounge"
+                class="banner margin10"
+            />
+        </a>
+
+        <p>
+            © <span id="copyright-year"></span> <strong>Kinn</strong>, ALL
+            RIGHTS RESERVED.
+        </p>
+
+        <script>
+            const img = document.querySelector(".header-img");
+            const orgnImagePath = "img/gmsh.png";
+            const mobileImagePath = "img/gmsh-mobile.png";
+        </script>
+    </body>
+</html>

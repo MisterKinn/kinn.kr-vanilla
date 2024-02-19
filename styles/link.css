@@ -1,0 +1,113 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+    background-color: black;
+    position: relative;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.header {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.scroll {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.hello {
+    font-size: 2em;
+    color: white;
+    margin-top: 5em;
+    margin-bottom: 0;
+    padding-top: 2em;
+}
+
+.kidmo {
+    font-size: 9em;
+    color: red;
+    margin: 0;
+}
+
+.blank {
+    margin-top: 10em;
+}
+
+.explain {
+    font-size: 1.3em;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 calc(25% - 5px);
+    height: 5em;
+    width: 10em;
+    gap: 30px;
+    background-color: #1c1c1c;
+    box-shadow: 0px 2px 4px rbga(0, 0, 0, 0, 3);
+    border-radius: 16px;
+    margin: 10px;
+    padding: 24px;
+}
+
+.card-img {
+    height: 50px;
+    width: 50px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 0.5em;
+    color: grey;
+}
+
+.card-footer {
+    font-size: 13px;
+    color: white;
+    margin-top: 2em;
+}
+
+.auto-width {
+    width: auto;
+}
+
+.spec {
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+}
+
+.spec:hover {
+    color: #5d3fd3;
+}
+
+.banner {
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+}

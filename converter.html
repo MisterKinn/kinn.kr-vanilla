@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Dynamic Converter" />
+        <meta
+            property="og:description"
+            content="Exchange rate Conversion Service"
+        />
+        <meta
+            property="og:image"
+            content="https://cdn.discordapp.com/attachments/798392730056261643/1180328867064463420/converter.png?ex=657d05eb&is=656a90eb&hm=7fc4543e24b5f5b8134618546e206b2797b7fe7d69c56b078964c930d13872d8&"
+        />
+        <title>Dynamic Converter</title>
+        <link rel="icon" href="img/converter.png" type="image/x-icon" />
+        <link rel="stylesheet" href="styles/converter.css" />
+        <noscript>You need to enable JavaScript to run this Web.</noscript>
+        <script src="scripts/converter.js" defer></script>
+        <script src="scripts/noNewTab.js" defer></script>
+        <script src="scripts/rediret.js" defer></script>
+        <script src="scripts/countYear.js" defer></script>
+    </head>
+    <body>
+        <a href="https://kinn.kr/" target="_blank" title="Kinn's Lounge">
+            <img
+                loading="lazy"
+                src="img/kinn-banner.png"
+                alt="Kinn's Lounge"
+                class="banner"
+            />
+        </a>
+
+        <div class="converter-container">
+            <h1 class="title">Dynamic Converter</h1>
+            <div>
+                <label for="fromCurrency">From Currency:</label>
+                <select id="fromCurrency">
+                    <option value="usd">USD(USA)</option>
+                    <option value="krw">KRW(Korea)</option>
+                    <option value="aud">AU(Australia)</option>
+                    <option value="brl">BRL(Brazil)</option>
+                    <option value="cad">CAD(Canada)</option>
+                    <option value="cny">CNY(China)</option>
+                    <option value="eur">EUR(EU)</option>
+                    <option value="gbp">GBP(UK)</option>
+                    <option value="jpy">JPY(Japan)</option>
+                    <option value="mxn">MXN(Mexico)</option>
+                    <option value="php">PHP(Philippines)</option>
+                    <option value="vnd">VND(VietNam)</option>
+                </select>
+                <button class="flipTop">Flip</button>
+            </div>
+            <div>
+                <label for="amount">Amount:</label>
+                <input
+                    type="number"
+                    id="amount"
+                    placeholder="Enter an Amount"
+                />
+            </div>
+            <div>
+                <label for="toCurrency">To Currency:</label>
+                <select id="toCurrency">
+                    <option value="usd">USD(USA)</option>
+                    <option value="krw">KRW(Korea)</option>
+                    <option value="aud">AU(Australia)</option>
+                    <option value="brl">BRL(Brazil)</option>
+                    <option value="cad">CAD(Canada)</option>
+                    <option value="cny">CNY(China)</option>
+                    <option value="eur">EUR(EU)</option>
+                    <option value="gbp">GBP(UK)</option>
+                    <option value="jpy">JPY(Japan)</option>
+                    <option value="mxn">MXN(Mexico)</option>
+                    <option value="php">PHP(Philippines)</option>
+                    <option value="vnd">VND(VietNam)</option>
+                </select>
+                <button class="flipBottom">Flip</button>
+            </div>
+            <div id="result"></div>
+            <span id="lastUpdateTime"></span>
+        </div>
+
+        <p>
+            © <span id="copyright-year"></span> <strong>Kinn</strong>, ALL
+            RIGHTS RESERVED.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="QR Crafter" />
+        <meta property="og:description" content="QR Generate Web Service" />
+        <meta
+            property="og:image"
+            content="https://cdn.discordapp.com/attachments/798392730056261643/1182580998374957087/link.png?ex=65853761&is=6572c261&hm=837632480584ff1265663e1e432a3fc392a98ba1608d4aa2c2d74ad0e4eca900&"
+        />
+        <title>QR Crafter</title>
+        <link rel="icon" href="img/link.png" type="image/x-icon" />
+        <link rel="stylesheet" href="styles/qr.css" />
+        <noscript>You need to enable JavaScript to run this Web.</noscript>
+        <script
+            src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"
+            defer
+        ></script>
+        <script src="scripts/qr.js" defer></script>
+        <script src="scripts/noNewTab.js" defer></script>
+        <script src="scripts/rediret.js" defer></script>
+        <script src="scripts/countYear.js" defer></script>
+    </head>
+    <body>
+        <a href="https://kinn.kr/" target="_blank" title="Kinn's Lounge">
+            <img
+                loading="lazy"
+                src="img/kinn-banner.png"
+                alt="Kinn's Lounge"
+                class="banner"
+            />
+        </a>
+
+        <div class="qr-container">
+            <h1 class="title">QR Crafter</h1>
+            <label for="text-input">Enter Text or URL:</label>
+            <input
+                type="text"
+                id="text-input"
+                class="text-input"
+                placeholder="Type here"
+            />
+            <div id="result"></div>
+            <a class="downloadButton" download="qrcode.png"
+                ><button class="downloadBtn">Download</button></a
+            >
+        </div>
+
+        <p>
+            © <span id="copyright-year"></span> <strong>Kinn</strong>, ALL
+            RIGHTS RESERVED.
+        </p>
+    </body>
+</html>

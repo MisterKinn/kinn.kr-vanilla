@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta property="og:title" content="Kinn's Lounge" />
+        <meta property="og:description" content="Portfolio Web of Kinn" />
+        <meta
+            property="og:image"
+            content="https://cdn.discordapp.com/attachments/798392730056261643/1191059142148890694/black-banner.png?ex=65a40f44&is=65919a44&hm=20b6be6835724be94c7b405056f2eee04bfae0d1815f2d7caba66b7da308560c&"
+        />
+        <title>Kinn's Lounge</title>
+        <link rel="icon" href="img/kinn.png" type="image/x-icon" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="stylesheet" href="styles/topbar.css" />
+        <noscript>You need to enable JavaScript to run this Web.</noscript>
+        <script src="scripts/arrow.js" defer></script>
+        <script src="scripts/scroll.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <script src="scripts/noNewTab.js" defer></script>
+        <script src="scripts/rediret.js" defer></script>
+        <script src="scripts/topbar.js" defer></script>
+        <script src="scripts/countYear.js" defer></script>
+        <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1051137892230055"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            async
+            src="https://fundingchoicesmessages.google.com/i/pub-1051137892230055?ers=1"
+            nonce="GMwjkHAvhRYxbQWL0-0ARA"
+        ></script>
+        <script nonce="GMwjkHAvhRYxbQWL0-0ARA">
+            (function () {
+                function signalGooglefcPresent() {
+                    if (!window.frames["googlefcPresent"]) {
+                        if (document.body) {
+                            const iframe = document.createElement("iframe");
+                            iframe.style =
+                                "width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;";
+                            iframe.style.display = "none";
+                            iframe.name = "googlefcPresent";
+                            document.body.appendChild(iframe);
+                        } else {
+                            setTimeout(signalGooglefcPresent, 0);
+                        }
+                    }
+                }
+                signalGooglefcPresent();
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="topbar">
+            <ul>
+                <a href="#home">Home</a>
+            </ul>
+            <ul>
+                <a href="#AboutMe">About Me</a>
+            </ul>
+            <ul>
+                <a href="#Portfolio">Portfolio</a>
+            </ul>
+            <ul>
+                <a href="#Skills">Skills</a>
+            </ul>
+            <ul>
+                <a href="#Profile">Profile</a>
+            </ul>
+        </div>
+
+        <div id="home">
+            <img src="img/kinn-banner.png" class="header-img" />
+            <div class="header-container">
+                <h2 class="hello scroll">Hello, I'm</h2>
+                <h1 class="kinn scroll">Kinn</h1>
+                <div>
+                    <div class="introduce scroll">
+                        Nice to meet you!
+                        <img
+                            loading="lazy"
+                            draggable="false"
+                            src="img/wave.png"
+                            class="wave"
+                        />
+                    </div>
+                </div>
+                <img loading="lazy" src="img/arrow.png" class="arrow" />
+            </div>
+        </div>
+
+        <div id="AboutMe">
+            <h1 class="AboutMe scroll">About Me</h1>
+            <p class="scroll">
+                I'm <strong>SeongYeon Kim</strong> (a.k.a.
+                <strong>Kinn</strong>), <br />
+                and I'm a student FrontEnd Developer.
+                <br />I develop Website & Discord Bot. <br />My motto is
+                <strong
+                    >"The best way to predict<br />
+                    the future is to create it."</strong
+                >
+                <br />I'm Junior of high school, and <br />I'm dreaming of
+                working at
+                <a
+                    href="https://toss.im"
+                    target="_blank"
+                    title="TOSS"
+                    class="link"
+                >
+                    <img loading="lazy" src="img/toss.png" class="toss" />
+                </a>
+                .
+            </p>
+        </div>
+
+        <div class="blank"></div>
+
+        <div id="Portfolio">
+            <h2 class="list scroll">Portfolio</h2>
+
+            <div class="container scroll">
+                <a href=" " target="_blank" title="Ileonang" class="spec">
+                    <div class="card-container">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/ileonang.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>Ileonang</strong></span
+                            >
+                        </div>
+                        <div class="card-text">
+                            Made an
+                            <strong>Alarm App</strong>, which wakes up user
+                            <br />by sending riskly message to someone
+                            <div class="card-footer">
+                                <strong><br />24. 02. 17~24. 02. 18.</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/qr" target="_blank" title="QR Crafter" class="spec">
+                    <div class="card-container">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/link.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>QR Crafter</strong></span
+                            >
+                        </div>
+                        <div class="card-text">
+                            Making a
+                            <strong>QR Code Generate Service</strong>,
+                            <br />which generates & downloads QR Code.
+                            <div class="card-footer">
+                                <strong><br />23. 12. 08~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="/converter"
+                    target="_blank"
+                    title="Dynamic Converter"
+                    class="spec"
+                >
+                    <div class="card-container">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/converter.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>Dynamic Converter</strong></span
+                            >
+                        </div>
+                        <div class="card-text">
+                            Making an
+                            <strong>Exchange Rate Conversion Service</strong>,
+                            <br />which calculates by the actual exchange rate.
+                            <div class="card-footer">
+                                <strong><br />23. 12. 02~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/promise" target="_blank" title="Promise" class="spec">
+                    <div class="card-container">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/Promise.webp"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>Promise</strong></span
+                            >
+                        </div>
+                        <div class="card-text">
+                            Making official Web Page of
+                            <strong>Promise</strong>,<br />which is club of my
+                            high school.
+                            <div class="card-footer">
+                                <strong><br />23. 11. 06~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/machim" target="_blank" title=".마침이" class="spec">
+                    <div class="card-container">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/Machim.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>.마침이</strong></span
+                            >
+                        </div>
+                        <div class="card-text">
+                            Making My Own <strong>Discord Bot</strong>,
+                            <br /><strong>[ .마침이 ]</strong>.
+                            <div class="card-footer">
+                                <strong><br />21. 02. 07~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div id="Skills">
+            <h2 class="list scroll">Skills</h2>
+            <div class="container scroll">
+                <div class="spec">
+                    <div class="card-container spec2">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/html.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>HTML</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />20. 07. 09~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec">
+                    <div class="card-container spec2">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/css.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"><strong>CSS</strong></span>
+                            <div class="card-footer">
+                                <strong><br />20. 08. 16~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec">
+                    <div class="card-container spec2">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/js.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>JavaScript</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />21. 01. 13~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container scoll">
+                <div class="spec">
+                    <div class="card-container spec2">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/React.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>React</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />23. 05. 12~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spec">
+                    <div class="card-container spec2">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/Nextjs.svg"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>Next.JS</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />24. 02. 17~</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Profile">
+            <h2 id="Profile" class="list scroll">Profile</h2>
+            <div class="container scroll">
+                <a
+                    href="mailto:kinn@kinn.kr"
+                    target="_blank"
+                    title="Mail"
+                    class="spec"
+                >
+                    <div class="card-container spec3">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/mail.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>Mail</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />kinn@kinn.kr</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://www.instagram.com/kinn__sy/"
+                    target="_blank"
+                    title="Instagram"
+                    class="spec"
+                >
+                    <div class="card-container spec3">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/instagram.png"
+                                class="card-img"
+                            />
+                            <span class="card-title"
+                                ><strong>Instagram</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />kinn__sy</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://discord.com/users/602459845534416896/"
+                    target="_blank"
+                    title="Discord"
+                    class="spec"
+                >
+                    <div class="card-container spec3">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/discord.png"
+                                class="card-img discord"
+                            />
+                            <span class="card-title"
+                                ><strong>Discord</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />mrkinn</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a
+                    href="https://github.com/MisterKinn/"
+                    target="_blank"
+                    title="GitHub"
+                    class="spec"
+                >
+                    <div class="card-container spec3">
+                        <div>
+                            <img
+                                loading="lazy"
+                                src="img/github.png"
+                                class="card-img discord"
+                            />
+                            <span class="card-title"
+                                ><strong>Github</strong></span
+                            >
+                            <div class="card-footer">
+                                <strong><br />MisterKinn</strong>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <a href="https://kinn.kr/" target="_blank" title="Kinn's Lounge">
+                <img
+                    loading="lazy"
+                    src="img/kinn-banner.png"
+                    alt="Kinn's Lounge"
+                    class="banner margin10"
+                />
+            </a>
+        </div>
+
+        <p>
+            © <span id="copyright-year"></span> <strong>Kinn</strong>, ALL
+            RIGHTS RESERVED.
+        </p>
+    </body>
+    <script>
+        const img = document.querySelector(".header-img");
+        const orgnImagePath = "img/kinn-banner.png";
+        const mobileImagePath = "img/kinn-banner-mobile.jpg";
+
+        function replaceImage() {
+            if (window.innerWidth <= 1000) {
+                img.src = mobileImagePath;
+            } else {
+                img.src = orgnImagePath;
+            }
+        }
+
+        window.addEventListener("load", replaceImage);
+        window.addEventListener("resize", replaceImage);
+    </script>
+</html>

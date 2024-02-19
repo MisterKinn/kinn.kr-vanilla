@@ -1,0 +1,35 @@
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 3em;
+    width: 100%;
+    background-color: #333;
+    opacity: 0.5;
+}
+
+.topbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.topbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Arial";
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 40px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.topbar a:hover {
+    background-color: #555;
+    color: #0d62fd;
+}
